@@ -55,6 +55,15 @@ class MainActivity : AppCompatActivity() {
                 }
         }
 
+        //need a login event
+        loginBtn.setOnClickListener()
+        {
+            val entered_email = email.text.toString()
+            val entered_password = password.text.toString()
+
+            //auth.
+        }
+
 
     }
 
